@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(11, 94, 161);
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-right: 250px;
+   flex-direction: column;
+
+}
+
+img{
+    margin: 10px;
+    align-items: center;
+}
+input{
+        border-radius: 10px;
+        width: 400px;
+        height:30px;
+        margin-bottom: 10px;
+        background-color: white;
+        align-items: center;
+    }
+    
+    .botao{
+        background-color: rgb(0, 112, 156);
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid  white;
+        width: 100px;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 10px;
+        font-weight:600;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-family: lato, sans-serif;
+    
+    }
+.invalida{
+    background-color:rgb(154, 21, 21);
+    color:rgb(255, 82, 82);
+}
+
+.mensagem-sucesso{
+    background-color:rgb(145,255,145);
+    color: rgb(2,78,2)
+}
+
+.mensagem-erro{
+    background-color: rgb(255,187,187);
+    color:rgb(255,0,0);
+    
+}
